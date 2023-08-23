@@ -1,0 +1,14 @@
+.main_banner {
+  height: 6rem;
+  overflow-y: hidden;
+  position: relative;
+}
+.main_banner img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 170%;
+}
+.main_banner p {
+  position: absolute;
+}/*# sourceMappingURL=banner.css.map */

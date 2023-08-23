@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Index() {
+function APropos() {
   return (
     <div>
-      hello !
+      A propos
     </div>
   )
 }
 
-export default Index
+export default APropos

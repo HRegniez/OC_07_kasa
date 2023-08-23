@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.header_logo {
+  width: 145px;
+}
+.header_nav {
+  width: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_link {
+  color: #FF6060;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  text-decoration: none;
+}/*# sourceMappingURL=header.css.map */
