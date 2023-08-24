@@ -1,10 +1,13 @@
 import React from 'react'
+import Banner from '../components/Banner'
+import LesPropos from '../components/LesPropos'
 
 function APropos() {
   return (
-    <div>
-      A propos
-    </div>
+    <main>
+      <Banner/>
+      <LesPropos />
+    </main>
   )
 }
 

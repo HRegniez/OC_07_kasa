@@ -1,3 +1,4 @@
+import React from 'react'
 import Banner from '../components/Banner'
 import HotelsPreview from '../components/HotelsPreview'
 
@@ -5,7 +6,7 @@ import HotelsPreview from '../components/HotelsPreview'
 function Home() {
   return (
     <main>
-      <Banner />
+      <Banner type='home'/>
       <HotelsPreview />
     </main>
   );

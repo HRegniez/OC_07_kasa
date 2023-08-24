@@ -1,0 +1,25 @@
+.preview {
+  display: flex;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  align-items: end;
+  text-decoration: none;
+}
+.preview img {
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 125%;
+}
+.preview h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  width: 70%;
+  color: white;
+  margin-left: 1rem;
+}/*# sourceMappingURL=hotelPreview.css.map */

@@ -1,14 +1,23 @@
 .main_banner {
-  height: 6rem;
-  overflow-y: hidden;
+  height: 7rem;
+  overflow: hidden;
   position: relative;
+  display: flex;
+  padding-left: 2rem;
+  align-items: center;
+  border-radius: 0.5rem;
 }
 .main_banner img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  width: 170%;
-}
-.main_banner p {
   position: absolute;
+  filter: grayscale(50%);
+  z-index: -1;
+  width: 165%;
+  top: -135px;
+  left: -117px;
+}
+.main_banner h1 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
 }/*# sourceMappingURL=banner.css.map */
