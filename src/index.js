@@ -5,6 +5,7 @@ import Header from './components/Header';
 import APropos from './pages/APropos';
 import Hotel from './pages/Hotel'
 import Footer from './components/Footer'
+import HotelProvider from './context/HotelProvider';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './Style/global.css'
 import './Style/variables.css'
@@ -14,11 +15,13 @@ root.render(
   <React.StrictMode>
     <Router>
       <Header/>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/a-propos" element={<APropos />}/>
-        <Route path="/hotel/:id" element={<Hotel />}/>
-      </Routes>
+      <HotelProvider>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/a-propos" element={<APropos />}/>
+          <Route path="/hotel/:id" element={<Hotel />}/>
+        </Routes>
+      </HotelProvider>
       <Footer/>
     </Router>
   </React.StrictMode>

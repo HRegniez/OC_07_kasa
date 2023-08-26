@@ -1,4 +1,3 @@
-import React from 'react'
 import '../Style/components/aPropos.css'
 import Propo from './Propo'
 
@@ -18,6 +17,7 @@ const proposDatas = [{
     title : 'Sécurité',
     content : 'La sécurité est la priorité de Kasa. Aussi bien pour nos hotes, que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l\'hote qu\'au locataire, cela permet a nos équipes  de vérifier que es standards sont bien respéctés. Nous organisons également des ateliers sur la sécurité domestique pour nos hotes'
 }]
+
 console.log(proposDatas)
 function LesPropos() {
     
