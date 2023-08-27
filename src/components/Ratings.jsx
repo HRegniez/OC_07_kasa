@@ -1,6 +1,7 @@
 import React from 'react'
 import starActive from '../assets/star-active.svg'
 import starInactive from '../assets/star-inactive.svg'
+import '../Style/components/hotelDetails.css'
 
 function Ratings(props) {
     const rating = props.rating

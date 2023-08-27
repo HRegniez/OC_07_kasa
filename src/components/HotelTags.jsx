@@ -1,12 +1,13 @@
 import React from 'react'
+import '../Style/components/hotelDetails.css'
 
 function HotelTags(props) {
   const tags = props.tags
   console.log(tags)
   return (
-    <div>
+    <div  className="hotel_details--tags">
       {tags.map((tag) => (
-        <span>{tag}</span>
+        <span className="hotel_details--tag" key={tag}>{tag}</span>
       ))}
     </div>
   )

@@ -5,6 +5,7 @@ import HotelHost from '../components/HotelHost'
 import HotelDescription from '../components/HotelDescription'
 import HotelEquipments from '../components/HotelEquipments'
 import HotelDetails from '../components/HotelDetails'
+// import '../Style/pages/hotel.css'
 
 
 function Hotel({}) {
@@ -21,11 +22,11 @@ function Hotel({}) {
   return (
     <main>
       <Carousel pictures={hotel.pictures}/>
-      <article>
+      <article className='flex'>
         <HotelDetails data={hotel}/>
         <HotelHost rating={hotel.rating} host={hotel.host}/>  
       </article>
-      <aside>
+      <aside className='flex'>
         <HotelDescription description={hotel.description} />
         <HotelEquipments equipments={hotel.equipments} />  
       </aside>

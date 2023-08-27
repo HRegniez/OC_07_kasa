@@ -11,9 +11,9 @@ function HotelEquipments(props) {
   }
 
   return (
-    <article>
+    <article className='hotel_description'>
       <figure>Équipements<img src={arrow} onClick={handleClick} alt="bouton pour plus de détails" /></figure>
-      <figcaption className={toggle ? "show" : "hiden"}>{equipments}</figcaption>
+      <figcaption className={!toggle ? "hidden" : null}>{equipments}</figcaption>
     </article>
   )
 }
