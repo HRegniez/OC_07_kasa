@@ -1,16 +1,16 @@
-import img1 from '../assets/BannerImg.jpg'
-import img2 from '../assets/BannerImg2.jpg'
+
 import '../Style/components/banner.css'
 
 function Banner(props) {
-  const bannerImg = props.type === 'home' ? img1 : img2
+  const bannerImg = props.image
+  const bannerText = props.text
 
   return (
     <section className='main_banner'>
         <img  src={bannerImg} alt="Banner image" />
-        {
-          props.type === 'home' ? <h1>Chez vous, <br/>partout et ailleurs</h1> : null
-        }
+        <h1>
+          {bannerText}
+        </h1>
     </section>
   )
 }

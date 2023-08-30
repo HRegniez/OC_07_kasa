@@ -15,7 +15,7 @@ function Hotel({}) {
   const hotel = getHotelById(id)
   console.log(hotel)
   if (!hotel) {
-    return <div>loader ?</div>
+    // Navigate to 404
   }
   
   
