@@ -5,6 +5,7 @@ import HotelHost from '../components/HotelHost'
 import HotelDescription from '../components/HotelDescription'
 import HotelEquipments from '../components/HotelEquipments'
 import HotelDetails from '../components/HotelDetails'
+import PopDown from '../components/PopDown'
 // import '../Style/pages/hotel.css'
 
 
@@ -27,8 +28,8 @@ function Hotel({}) {
         <HotelHost rating={hotel.rating} host={hotel.host}/>  
       </article>
       <aside className='flex'>
-        <HotelDescription description={hotel.description} />
-        <HotelEquipments equipments={hotel.equipments} />  
+        <PopDown title="description" contents={[hotel.description]} />
+        <PopDown title="équipements" contents={hotel.equipments} />
       </aside>
     </main>
   )
