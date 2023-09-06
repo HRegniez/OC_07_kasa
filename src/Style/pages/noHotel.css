@@ -1,0 +1,17 @@
+.no_hotel {
+  color: #FF6060;
+  height: 85vh;
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.no_hotel p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.no_hotel_link {
+  color: #FF6060;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=noHotel.css.map */

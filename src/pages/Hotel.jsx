@@ -2,10 +2,10 @@ import  { useParams } from 'react-router-dom'
 import  { useHotelContext } from '../context/HotelProvider'
 import Carousel from '../components/Carousel'
 import HotelHost from '../components/HotelHost'
-import HotelDescription from '../components/HotelDescription'
-import HotelEquipments from '../components/HotelEquipments'
+
 import HotelDetails from '../components/HotelDetails'
 import PopDown from '../components/PopDown'
+import NoHotel from '../pages/NoHotel'
 // import '../Style/pages/hotel.css'
 
 
@@ -16,9 +16,10 @@ function Hotel({}) {
   const hotel = getHotelById(id)
   console.log(hotel)
   if (!hotel) {
-    // Navigate to 404
+    return (
+      <NoHotel />
+    )
   }
-  
   
   return (
     <main>

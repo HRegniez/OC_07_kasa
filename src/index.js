@@ -9,6 +9,7 @@ import HotelProvider from './context/HotelProvider';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './Style/global.css'
 import './Style/variables.css'
+import NoHotel from './pages/NoHotel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
           <Route path="/" element={<Home />}/>
           <Route path="/a-propos" element={<APropos />}/>
           <Route path="/hotel/:id" element={<Hotel />}/>
+          <Route path="/*" element={<NoHotel />}/>
         </Routes>
       </HotelProvider>
       <Footer/>

@@ -7,10 +7,13 @@ function Banner(props) {
 
   return (
     <section className='main_banner'>
+      <div className='main_banner-filter'>
         <img  src={bannerImg} alt="Banner image" />
         <h1>
           {bannerText}
-        </h1>
+        </h1>        
+      </div>
+        
     </section>
   )
 }
