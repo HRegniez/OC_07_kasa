@@ -14,11 +14,14 @@ function Home() {
   return (
     <main>
       <Banner image={bannerImg} text={bannerText}/>
-      {
-        hotelData.map((hotel) => (
-          <Card id={hotel.id} title={hotel.title} cover={hotel.cover} />
-        ))
-      }
+      <div className='preview_contain'>
+        {
+          hotelData.map((hotel) => (
+            <Card id={hotel.id} title={hotel.title} cover={hotel.cover} />
+          ))
+        }
+      </div>
+      
     </main>
   );
 }

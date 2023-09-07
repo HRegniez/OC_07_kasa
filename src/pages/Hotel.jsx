@@ -24,11 +24,11 @@ function Hotel({}) {
   return (
     <main>
       <Carousel pictures={hotel.pictures}/>
-      <article className='flex'>
+      <article className='hotel_top'>
         <HotelDetails data={hotel}/>
         <HotelHost rating={hotel.rating} host={hotel.host}/>  
       </article>
-      <aside className='flex'>
+      <aside className='hotel_bottom'>
         <PopDown title="description" contents={[hotel.description]} />
         <PopDown title="équipements" contents={hotel.equipments} />
       </aside>

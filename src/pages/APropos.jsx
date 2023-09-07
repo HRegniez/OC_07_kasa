@@ -23,7 +23,7 @@ function APropos() {
   return (
     <main>
       <Banner image={bannerImg}/>
-      <section>
+      <section className='propo'>
         {proposDatas.map((propo) => (
             <PopDown key={propo.title} title={propo.title} contents={[propo.content]}/>
         ))}

@@ -1,0 +1,34 @@
+@media screen and (min-width: 700px) 
+    .preview
+        height: 30vw
+        &_contain
+            padding: 2rem
+            background-color: #F6F6F6
+            grid-template-columns: 1fr 1fr 
+            border-radius: 1rem
+
+    .hotel
+        &_top
+            display: flex
+            justify-content: space-between            
+        &_bottom
+            display: grid
+            grid-template-columns: 1fr 1fr
+            gap: 1rem           
+        &_host
+            justify-content: space-evenly
+            flex-direction: column-reverse
+@media screen and (min-width: 1024px) 
+    header, main
+        margin-right: 4rem
+        margin-left: 4rem
+    .main
+        &_banner
+            height: 12rem
+    .preview
+        height: 20vw
+        &_contain
+            grid-template-columns: 1fr 1fr 1fr
+    .propo
+        padding: 1rem 4rem
+    
