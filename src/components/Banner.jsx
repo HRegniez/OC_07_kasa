@@ -6,13 +6,12 @@ function Banner(props) {
   const bannerText = props.text
 
   return (
-    <section className='main_banner'>
-      <div className='main_banner-filter'>
-        <img  src={bannerImg} alt="Banner image" />
-        <h1>
-          {bannerText}
-        </h1>        
-      </div>
+    <section className='main_banner'>  
+      <img  src={bannerImg} alt="Banner image" />
+      <h1>
+        {bannerText}
+      </h1>        
+      <div className='main_banner-filter'></div>
         
     </section>
   )

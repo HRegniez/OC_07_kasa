@@ -29,6 +29,7 @@
   }
   .main_banner {
     height: 12rem;
+    justify-content: center;
   }
   .preview {
     height: 20vw;
