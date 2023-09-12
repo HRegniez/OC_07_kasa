@@ -34,8 +34,16 @@
 .popdown_detail div {
   margin-top: 0.3rem;
 }
+.popdown_arrow {
+  transition: all 0.2s ease-out;
+}
 .popdown.open .popdown_detail {
   height: auto;
   transition: all 0.3s ease;
   padding: 1rem;
+}
+
+.flip {
+  transform: rotate(-180deg);
+  transition: all 0.2s ease-out;
 }/*# sourceMappingURL=popDown.css.map */

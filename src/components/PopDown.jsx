@@ -16,7 +16,7 @@ function PopDown(props) {
 
   return (
     <article className={`popdown ${toggle ? "open" : ""}`}>
-        <div className='popdown_title'><h2>{title}</h2><img src={arrow} onClick={click} alt="bouton pour plus de détails" /></div>
+        <div className='popdown_title'><h2>{title}</h2><img src={arrow} onClick={click} className={`popdown_arrow ${toggle ? "flip" : ""}`} alt="bouton pour plus de détails" /></div>
         <div className="popdown_detail">
             {contents.map(content => 
                 (<div>{content}</div>)
