@@ -25,4 +25,10 @@
   position: absolute;
   right: 0;
   top: 50%;
+}
+.carousel_counter {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.8rem;
+  color: white;
 }/*# sourceMappingURL=carousel.css.map */
