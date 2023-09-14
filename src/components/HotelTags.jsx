@@ -3,7 +3,6 @@ import '../Style/components/hotelDetails.css'
 
 function HotelTags(props) {
   const tags = props.tags
-  console.log(tags)
   return (
     <div  className="hotel_details--tags">
       {tags.map((tag) => (

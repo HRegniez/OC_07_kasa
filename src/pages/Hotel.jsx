@@ -14,7 +14,6 @@ function Hotel({}) {
   const { getHotelById } = useHotelContext()
   
   const hotel = getHotelById(id)
-  console.log(hotel)
   if (!hotel) {
     return (
       <NoHotel />

@@ -5,7 +5,6 @@ import arrowRight from '../assets/arrow_right.svg'
 
 function Carousel(props) {
   const pictures = props.pictures
-  console.log(pictures.length)
   const [indexCurrent, setIndexCurrent] = useState(0)
 
   const forward = () => (

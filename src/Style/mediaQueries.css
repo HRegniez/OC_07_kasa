@@ -8,6 +8,10 @@
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
   }
+  .main_banner {
+    height: 12rem;
+    justify-content: center;
+  }
   .hotel_top {
     display: flex;
     justify-content: space-between;
@@ -26,10 +30,6 @@
   header, main {
     margin-right: 4rem;
     margin-left: 4rem;
-  }
-  .main_banner {
-    height: 12rem;
-    justify-content: center;
   }
   .preview {
     height: 20vw;

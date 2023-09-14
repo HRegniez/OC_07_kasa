@@ -17,7 +17,7 @@ function Home() {
       <div className='preview_contain'>
         {
           hotelData.map((hotel) => (
-            <Card id={hotel.id} title={hotel.title} cover={hotel.cover} />
+            <Card id={hotel.id} title={hotel.title} key={hotel.id} cover={hotel.cover} />
           ))
         }
       </div>
