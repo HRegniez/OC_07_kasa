@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import HotelProvider from './context/HotelProvider';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './Style/global.css'
-import './Style/variables.css'
 import './Style/mediaQueries.css'
 import NoHotel from './pages/NoHotel';
 
