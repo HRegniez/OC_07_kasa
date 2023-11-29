@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/OC_07_kasa/static/css/main.6c2bc47a.css",
+    "main.js": "/OC_07_kasa/static/js/main.0ff63ad4.js",
+    "static/media/BannerImg2.jpg": "/OC_07_kasa/static/media/BannerImg2.e54ae93d36cfba861b65.jpg",
+    "static/media/BannerImg.jpg": "/OC_07_kasa/static/media/BannerImg.61352a7ae7ebff30e925.jpg",
+    "static/media/logo.svg": "/OC_07_kasa/static/media/logo.69a3df082e3c5a974ce0abfe5dc4be4e.svg",
+    "static/media/logoWhite.svg": "/OC_07_kasa/static/media/logoWhite.c06beda3372ed237a0b86809c363a0d2.svg",
+    "static/media/404.svg": "/OC_07_kasa/static/media/404.fb84963c60c67a282730abea9fb070a9.svg",
+    "static/media/star-active.svg": "/OC_07_kasa/static/media/star-active.b3f08fb1e4032e406c47305925d3f3f1.svg",
+    "static/media/star-inactive.svg": "/OC_07_kasa/static/media/star-inactive.7f9a4a765c862d5389abd67bf834a4db.svg",
+    "index.html": "/OC_07_kasa/index.html",
+    "static/media/arrow.svg": "/OC_07_kasa/static/media/arrow.574227c1ca3bbfe1a74a469a82b713bc.svg",
+    "static/media/arrow_left.svg": "/OC_07_kasa/static/media/arrow_left.0e7d4ca92ee88deb4a20b6193287784f.svg",
+    "static/media/arrow_right.svg": "/OC_07_kasa/static/media/arrow_right.0668bca068a0b7452b7af8cdb5a3382d.svg",
+    "main.6c2bc47a.css.map": "/OC_07_kasa/static/css/main.6c2bc47a.css.map",
+    "main.0ff63ad4.js.map": "/OC_07_kasa/static/js/main.0ff63ad4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c2bc47a.css",
+    "static/js/main.0ff63ad4.js"
+  ]
+}
